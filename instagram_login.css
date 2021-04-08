@@ -1,0 +1,127 @@
+.container {
+  margin: 0;
+  background-color: #fafafa;
+  display: block;
+  padding: 30px 35%;
+}
+.log-in {
+  background-color: white;
+  border: solid 1px #e2e2e2;
+  border-radius: 3px;
+  padding: 20px 45px;
+  margin-bottom: 10px;
+}
+.log-in img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.log-in__form input {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  border: solid 1px #e2e2e2;
+  border-radius: 3px;
+  background-color: #fafafa;
+  padding: 5px;
+}
+.log-in__form input:last-child {
+  background-color: rgb(162, 218, 255);
+  color: white;
+  font-weight: 600;
+  border: none;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.log-in__form input:focus {
+  outline: none;
+  border: solid 1px #cccccc;
+}
+
+.log-in__or {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.or__line {
+  height: 2px;
+  width: 100px;
+  background-color: #eeeeee;
+}
+
+.or__text {
+  color: #aaaaaa;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.log-in__facebook {
+  color: #3b5998;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.facebook__logo {
+  background-color: #3b5998;
+  border-radius: 1px;
+  width: 18px;
+  height: 18px;
+  color: white;
+  font-weight: bold;
+  float: left;
+  margin-right: 5px;
+}
+
+.log-in__facebook span:last-child {
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+.sign-up {
+  background-color: white;
+  border: solid 1px #e2e2e2;
+  border-radius: 3px;
+  padding: 20px 45px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up p:first-child {
+  color: #5e5e5e;
+  margin-right: 5px;
+}
+.sign-up a {
+  text-decoration: none;
+  color: rgb(0, 174, 255);
+  font-weight: 600;
+}
+.get-app__text {
+  display: block;
+  color: #5e5e5e;
+  margin: 20px 0;
+  text-align: center;
+}
+.get-app__box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box__apple,
+.box__google {
+  background-color: rgb(31, 31, 31);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+. {
+  font-size: 0.8em;
+}
