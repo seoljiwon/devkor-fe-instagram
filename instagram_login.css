@@ -2,14 +2,16 @@
   margin: 0;
   background-color: #fafafa;
   display: block;
-  padding: 30px 35%;
+  padding: 30px 0;
 }
 .log-in {
   background-color: white;
   border: solid 1px #e2e2e2;
   border-radius: 3px;
   padding: 20px 45px;
+  margin: 0 auto;
   margin-bottom: 10px;
+  width: 20%;
 }
 .log-in img {
   width: 70%;
@@ -94,6 +96,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  width: 20%;
 }
 .sign-up p:first-child {
   color: #5e5e5e;
@@ -112,39 +116,66 @@
 }
 .get-app__box {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 .box__apple,
 .box__google {
   background-color: rgb(31, 31, 31);
   color: white;
   border-radius: 5px;
-  padding: 5px;
-  width: 170px;
-  height: 40px;
+  padding: 10px;
+  width: 130px;
+  height: 30px;
+}
+.box__apple {
+  margin-right: 10px;
 }
 .box__img {
   float: left;
-  height: 40px;
+  height: 30px;
+  margin-right: 10px;
 }
 .box__download {
-  font-size: 0.6em;
+  font-size: 0.4em;
   float: left;
   margin: 0;
 }
 .box__app {
   font-weight: 600;
   margin: 0;
+  position: relative;
+  top: -10px;
+}
+footer {
+  overflow: hidden;
 }
 footer ul {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 footer ul li {
+  margin-right: 20px;
+  color: #5e5e5e;
+  font-size: 0.8em;
+}
+footer .info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer select {
+  color: #5e5e5e;
+  float: left;
   margin-right: 10px;
+  background-color: #fafafa;
+  border: none;
+  font-size: 0.8em;
+}
+footer p {
   color: #5e5e5e;
   font-size: 0.8em;
 }
