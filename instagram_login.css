@@ -121,7 +121,30 @@
   color: white;
   border-radius: 5px;
   padding: 5px;
+  width: 170px;
+  height: 40px;
 }
-. {
+.box__img {
+  float: left;
+  height: 40px;
+}
+.box__download {
+  font-size: 0.6em;
+  float: left;
+  margin: 0;
+}
+.box__app {
+  font-weight: 600;
+  margin: 0;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer ul li {
+  margin-right: 10px;
+  color: #5e5e5e;
   font-size: 0.8em;
 }
